@@ -1,0 +1,38 @@
+{{template "header" .}}
+    <div class="container">
+       <div class="row">
+        <div class="col-md-12 ">
+            <div class="box " >
+                <div class="text-danger text-center fw-bold ">
+                {{.error}}
+            </div>
+                <h1 class="head text-white">LOGIN</h1>
+                <div class="">
+                    <form method="POST" action="/login" class="formi">
+                        <div class="form-group mb-4">
+                          <label for="exampleInputEmail1" class="text-white" >Username:</label>
+                          <input type="text" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter username" value="" name="username">
+                          
+                        </div>
+                        <div class="form-group mb-4" >
+                          <label for="exampleInputPassword1" class="text-white">Password:</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" value="" name="password">
+                        </div>
+                       <div class="button d-flex justify-content-center">
+                        <button type="submit" class="btn btn-primary" value="login">Login</button>
+                    </div>
+                    
+                      </form>
+                </div>
+            </div>
+            
+        </div>
+        
+       </div>
+    </div>
+    
+{{template "footer"}}
+
+
+
+

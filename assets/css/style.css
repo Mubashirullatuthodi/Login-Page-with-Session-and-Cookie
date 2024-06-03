@@ -1,0 +1,56 @@
+body{
+    background-image: url("/assets/images/Background\ image.jpg");
+    background-size: cover;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    background-color: #050505;
+    height: 30em;
+    width: 400px;
+    border: 10px;
+    opacity: .8;
+    padding: 44px 16px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black ;
+    height: 3em;
+    font-weight: 700;
+
+}
+.formi{
+    height: 23em;
+}
+.bod{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    
+   
+}
+.button a{
+    text-decoration: none;
+    border: solid 2px white;
+    color: aliceblue;
+    padding: 10px 5px;
+    font-family: sans-serif;
+}
+.button a:hover{
+    background-color: grey;
+}
+.text{
+    color: white;
+    font-family: sans-serif;
+}
+.text span{
+    color: yellow;
+}
